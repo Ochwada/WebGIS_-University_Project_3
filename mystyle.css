@@ -1,0 +1,124 @@
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 99%;
+  font-family: "Baskerville" , serif;
+  color: bisque;
+  background-image: url("Image/background1.jpg");
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+}
+@media only screen and (min-width: 0px) and (max-width: 479px){
+}
+/*----header and Navigation bar----*/
+#header h1, h3{
+  text-align: center;
+}
+#header a{
+  color: #ffe4c4;
+}
+hr{
+    height: 15px;
+    border: 0;
+    box-shadow: inset 0 15px 15px -15px rgba(255, 221, 179, 0.5);
+    width: 50%;
+}
+/* --Selection of the attributes & login information --*/
+#breadcrumbs{
+background-color:rgba(0,0,0,0.5);
+border: 1px dashed #b36200;
+margin: 2.5px 20px;
+height: auto;
+overflow: hidden;
+}
+
+#login{
+float: left;
+}
+.form-login span{
+  margin: 7px 5px;
+  width: 28%;
+  float: left;
+}
+
+.form-login input{
+  margin: 7px 5px;
+  border-radius: 5px;
+}
+#select{
+  float: right;
+}
+
+.form-select input{
+  margin: 7px 15px;
+  border-radius: 5px;
+}
+
+.form-select select{
+  margin: 7px 15px;
+}
+
+.form-select input[type="number"] {
+   width:28%;
+}
+
+/* ----wrapper containing aside and map divs ----*/
+#wrapper{
+  background-color:rgba(0,0,0,0.5);
+  height: auto;
+  overflow: hidden;
+  padding:20px 0px;
+  margin: 2.5px 20px 0px 20px;
+}
+#in-aside{
+  float: left;
+  width: 48%;
+  margin-top: 20px;
+}
+#map{
+  float: right;
+  width: 48%;
+  height: 500px;
+  border: 1px solid #804600;
+}
+/* --form in-side id; styling-- */
+.form-inaside span{
+  width: 25%;
+  margin: 2.5px 2.5px;
+  float: left;
+}
+.form-inaside input, textarea {
+  border-radius: 5px;
+  font-family: "Baskerville" , serif;
+  font-size: 10pt;
+}
+.form-inaside textarea{
+  width: 40%;
+  height: auto;
+}
+.form-inaside input[type="button"] {
+   float:inherit;
+   margin-left: 55%;
+}
+/* ------ end -----*/
+/*map part*/
+#loc-input{
+  width: 30%;
+  height: 20px;
+  margin:5px;
+  border: 1px  dashed #b36200;
+  font-family: "Baskerville" , serif;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:rgba(255, 244, 230,0.8);
+}
+/*--making the footer--*/
+.copyright{
+  text-align: center;
+  color: #ff981a;
+}
