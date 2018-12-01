@@ -1,1 +1,1 @@
-# Web_Cartograpy_University-Project
+# WebGIS_University_Project_3
